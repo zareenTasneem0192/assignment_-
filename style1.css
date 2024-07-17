@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 1300px;
+    width: 1300px;
+}
+
+.hero-section {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    position: relative;
+}
+
+.hero-section h1 {
+    font-size: 2.5em;
+    color: #52dabf; 
+}
+
+.hero-section h1 span {
+    color: #000; 
+}
+
+.hero-section p {
+    font-size: 1.0em;
+    margin: 20px 0;
+    text-align: left; 
+}
+
+.hero-section .play-icon {
+    font-size: 4em;
+    color: #52dabf; 
+    margin-bottom: 19px; 
+    position: absolute;
+    left: 10px; 
+    top: 15%;
+    transform: translateY(-50%);
+}
+
+.hero-section .dots-img {
+    position: absolute;
+    top: 240px;
+    right: 25px;
+    width: 250px;
+}
+
+.appointment-section {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+.appointment-title {
+    color: #52dabf;
+}
+
+.black-text {
+    color: #000;
+}
+
+.appointment-box {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.appointment-section h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+form .form-control:focus {
+    border-color: #52dabf;
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+}
+
+.navbar {
+    background-color: #52dabf; 
+    height: 72px; 
+    padding: 0; 
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #fff; 
+    transition: color 0.3s ease; 
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: black;
+}
+
+.contact-info a {
+    color: #000;
+}
+
+.contact-info a:hover {
+    color: #52dabf;
+}
+
+.navbar-brand {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 17px;
+}
+
+.navbar-brand img {
+    width: 50px;
+    vertical-align: middle;
+    height: 72px;
+}
+
+.btn-black {
+    background-color: #000; 
+    color: #fff;
+    border: none;
+    padding: 8px 16px; 
+    text-decoration: none; 
+    display: inline-block; 
+    transition: background-color 0.3s ease;
+}
+
+.btn-black:hover {
+    background-color: #52dabf; 
+}
+
+
+.hero-section .dots-img {
+    position: absolute;
+    top: 240px;
+    right: -60px;
+    width: 270px;
+}
+
+.hero-section .prev-img {
+    position: absolute;
+    background-color: #52dabf; 
+    top: 252px;
+    color: white;
+    font-size: 2em;
+    padding: 10px 15px; 
+    margin: 210px;
+    display: inline-block;
+    right: -130px;
+}
+
+.hero-section .next-img {
+    position: absolute;
+    background-color: #52dabf;
+    top: 252px;
+    color: white;
+    font-size: 4em;
+    padding: 10px 15px;
+    margin: 210px;
+    display: inline-block;
+    left: 304px;
+}
+
+.underline-text {
+    position: relative;
+}
+
+.underline-text::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px; 
+    width: 115%;
+    height: 2px;
+    background-color:#52dabf;
+}
+
+/* Style for the form labels */
+.appointment-section label {
+    color: black; 
+    font-weight: bold;
+}
+
+/* Style for the form input fields */
+.appointment-section .form-control {
+    color: #52dabf; 
+    border: 1px solid #52dabf;
+}
+
+/* Style for the form select fields */
+.appointment-section select.form-control {
+    color: #52dabf; /* SteelBlue */
+    border: 1px solid #52dabf;
+}
+
+/* Style for the form container */
+.appointment-section .appointment-box {
+    background-color: #f0f8ff; /* AliceBlue */
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Style for the form title */
+.appointment-section .appointment-title {
+    color: #52dabf; /* SeaGreen */
+}
+
+.appointment-section .appointment-title .black-text {
+    color: #000;
+}
+.appointment-section .form-control::placeholder {
+    color: #52dabf;
+    opacity: 1; /* Firefox */
+}
+
+.appointment-section .form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:#52dabf;
+}
+
+.appointment-section .form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: #52dabf;
+}
